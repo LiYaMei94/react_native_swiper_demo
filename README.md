@@ -18,7 +18,7 @@
 | offset | PropTypes.number | 0 | 左右或上下偏移量 |
 | horizontal | PropTypes.bool | true | 是否横向滚动 |
 | isHighChange | PropTypes.bool | false | 轮播图的高是否一样 |
-| loop | PropTypes.bool | true | 是否循环 |
+| loop | PropTypes.bool | false | 是否循环 |
 | isShowPagination | PropTypes.bool | false | 是否显示分页器 |
 | paginationItemStyle | PropTypes.object | {} | 分页器样式、圆点大小，圆角大小等 |
 | activeTintColor | PropTypes.string | 'red' | 分页器激活颜色 |
@@ -27,7 +27,7 @@
 | SwiperButtonNext | PropTypes.func | null | 前进按钮渲染 |
 | SwiperButtonPrev | PropTypes.func | null | 后退按钮渲染 |
 | SwiperButtonIconColor | PropTypes.string | '#000' |前进后退按钮的图标颜色 |
-| autoplayTimeout | PropTypes.number | 5 | 自动轮播时间，单位是秒 |
+| autoplayTimeout | PropTypes.number | 2 | 自动轮播时间，单位是秒 |
 | autoplayDirection | PropTypes.bool | true | true代表朝着卡片索引大的方向 |
 | ratio | PropTypes.number | 1 | 轮播卡片缩放，默认不缩放 |
 | renderRow | PropTypes.func.isRequired | | 轮播卡片渲染|
